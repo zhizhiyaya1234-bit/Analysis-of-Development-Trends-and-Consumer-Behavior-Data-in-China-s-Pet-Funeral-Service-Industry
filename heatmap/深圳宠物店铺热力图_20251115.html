@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shenzhen Pet Funeral Heatmap</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/guang3_dong1_shen1_zhen4.js"></script>
+
+    
+</head>
+<body >
+    <div id="e274f88cad094c45b3bb4fc72c8f4663" class="chart-container" style="width:1200px; height:700px; "></div>
+    <script>
+        var chart_e274f88cad094c45b3bb4fc72c8f4663 = echarts.init(
+            document.getElementById('e274f88cad094c45b3bb4fc72c8f4663'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_e274f88cad094c45b3bb4fc72c8f4663 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Number of Merchants",
+            "label": {
+                "show": true,
+                "color": "black",
+                "margin": 8,
+                "fontSize": 10,
+                "valueAnimation": false
+            },
+            "map": "\u6df1\u5733",
+            "data": [
+                {
+                    "name": "\u9f99\u5c97\u533a",
+                    "value": 10
+                },
+                {
+                    "name": "\u5357\u5c71\u533a",
+                    "value": 9
+                },
+                {
+                    "name": "\u9f99\u534e\u533a",
+                    "value": 6
+                },
+                {
+                    "name": "\u5b9d\u5b89\u533a",
+                    "value": 6
+                },
+                {
+                    "name": "\u798f\u7530\u533a",
+                    "value": 4
+                },
+                {
+                    "name": "\u7f57\u6e56\u533a",
+                    "value": 3
+                },
+                {
+                    "name": "\u5149\u660e\u533a",
+                    "value": 1
+                },
+                {
+                    "name": "\u76d0\u7530\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u576a\u5c71\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u5927\u9e4f\u533a",
+                    "value": 0
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "zlevel": 0,
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "formatter": null,
+                "textStyle": {
+                    "color": "#4a148c"
+                },
+                "backgroundColor": "rgba(243, 229, 245, 0.9)",
+                "borderColor": "#ce93d8",
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "itemStyle": {
+                "color": [
+                    "#f3e5f5",
+                    "#e1bee7",
+                    "#ce93d8",
+                    "#ba68c8",
+                    "#9c27b0",
+                    "#8e24aa",
+                    "#7b1fa2",
+                    "#4a148c"
+                ],
+                "borderColor": "#fff",
+                "borderWidth": 1
+            },
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Number of Merchants"
+            ],
+            "selected": {},
+            "show": true,
+            "left": "center",
+            "bottom": "10px",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "textStyle": {
+                "color": "#ba68c8"
+            },
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Distribution of Pet Funeral Stores in Shenzhen",
+            "target": "blank",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "15px",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "color": "#4a148c",
+                "fontWeight": "bold",
+                "fontSize": 18
+            }
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "right": "30px",
+        "top": "50px",
+        "feature": {
+            "zoom": {
+                "show": true,
+                "title": "\u653e\u5927"
+            },
+            "restore": {
+                "show": true,
+                "title": "\u91cd\u7f6e"
+            }
+        }
+    },
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 10,
+        "textStyle": {
+            "color": "#ba68c8"
+        },
+        "inRange": {
+            "color": [
+                "#f3e5f5",
+                "#e1bee7",
+                "#ce93d8",
+                "#ba68c8",
+                "#9c27b0",
+                "#8e24aa",
+                "#7b1fa2",
+                "#4a148c"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "top": "center",
+        "right": "20px",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_e274f88cad094c45b3bb4fc72c8f4663.setOption(option_e274f88cad094c45b3bb4fc72c8f4663);
+    </script>
+</body>
+</html>
